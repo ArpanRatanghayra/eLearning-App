@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassroomActivity">
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="15dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:hint="Old Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf='parent'
+        app:layout_constraintVertical_bias="0.40" />
+    <TextView
+        android:id="@+id/cpassword"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_edge"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="15dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf='parent'
+        app:layout_constraintVertical_bias="0.50" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/round_blue"
+        android:drawableRight="@drawable/arrow"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Submit"
+        android:textColor="#FDFCFC"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

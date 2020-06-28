@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlotActivity">
+    <TextView
+        android:id="@+id/headingSlot"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Slot"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/slot"
+        android:layout_width="410dp"
+        android:layout_height="125dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:background="@drawable/round_blue"
+        android:textColor="#FDFCFC"
+        android:scrollbars="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headingSlot"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/headingLink"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Link"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:background="@drawable/round_blue"
+        android:textColor="#FDFCFC"
+        android:scrollbars="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headingLink"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/headingMark"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Mark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.50" />
+
+    <TextView
+        android:id="@+id/mark"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:background="@drawable/round_blue"
+        android:textColor="#FDFCFC"
+        android:scrollbars="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headingMark"
+        app:layout_constraintVertical_bias="0.00" />
+
+    <TextView
+        android:id="@+id/headingQuiz"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Quiz"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:background="@drawable/round_blue"
+        android:textColor="#FDFCFC"
+        android:scrollbars="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headingQuiz"
+        app:layout_constraintVertical_bias="0.00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
